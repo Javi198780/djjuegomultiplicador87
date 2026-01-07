@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DJ Estadística 1987 🎶</title>
+  <style>
+    /* ======== ESTILO GENERAL ======== */
+    :root {
+      --violet: #8b5cf6;
+      --teal: #14b8a6;
+      --dark: #0f0f16;
+      --light: #f1f5f9;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Poppins', system-ui, sans-serif;
+      color: var(--light);
+      background: linear-gradient(135deg, var(--dark), #1a0b2e);
+      background-attachment: fixed;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 20px;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+      background: linear-gradient(90deg, var(--violet), var(--teal));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    p.tagline {
+      font-size: 1.1rem;
+      color: #a5b4fc;
+      margin-bottom: 30px;
+    }
+
+    /* ======== BOTONES ======== */
+    .boton-frecuencia {
+      display: inline-block;
+      padding: 14px 32px;
+      background: linear-gradient(90deg, var(--teal), var(--violet));
+      color: white;
+      text-decoration: none;
+      border-radius: 14px;
+      font-weight: bold;
+      font-size: 1.1rem;
+      transition: all 0.3s ease;
+      box-shadow: 0 0 15px rgba(139, 92, 246, 0.3);
+      margin: 10px;
+    }
+
+    .boton-frecuencia:hover {
+      transform: scale(1.07);
+      box-shadow: 0 0 25px rgba(139, 92, 246, 0.6);
+    }
+
+    footer {
+      position: absolute;
+      bottom: 10px;
+      width: 100%;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #a5b4fc;
+      padding: 10px;
+    }
+
+    footer small {
+      display: block;
+      margin-top: 6px;
+      color: #94a3b8;
+    }
+
+    footer a {
+      color: #a5b4fc;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2rem;
+      }
+      p.tagline {
+        font-size: 1rem;
+      }
+      .boton-frecuencia {
+        font-size: 1rem;
+        padding: 12px 24px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>DJ Estadística 1987 🎶</h1>
+  <p class="tagline">Dándole ritmo a los datos — calculadoras estadísticas online</p>
+
+  <!-- 🌟 BOTONES PRINCIPALES -->
+  <a href="frecuencia.html" class="boton-frecuencia">📊 Crear Tabla de Frecuencia</a>
+  <a href="pizarra.html" class="boton-frecuencia">🧠 Pizarra Interactiva</a>
+  <a href="juego_multiplicador.html" class="boton-frecuencia">🧠 Juego Multiplicador</a>
+
+  <footer>
+    © 2025 DJ Estadística 1987 — Creado con ritmo 🎵
+    <small>
+      No recopilamos datos personales ni usamos cookies.
+      <a href="privacidad.html">Política de privacidad</a>
+    </small>
+  </footer>
+</body>
+</html>
